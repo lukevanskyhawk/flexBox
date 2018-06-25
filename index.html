@@ -15,12 +15,11 @@
         }
 
         body {
-
             margin: 0px;
         }
 
         .navbar {
-            background-color: #415068;
+            background: #415068;
         }
 
         .navbar div {
@@ -48,7 +47,7 @@
         }
 
         .navbar .brand {
-            width: 10 em;
+            width: 10em;
             text-align: center;
             padding: 1em;
             color: white;
@@ -56,7 +55,6 @@
 
         .navbar a {
             text-decoration: none;
-
         }
 
         .navbar .toggle {
@@ -66,9 +64,6 @@
 
         @media (min-width: 48em) {
             .navbar {
-                display: flex;
-            }
-            .navbar div {
                 display: flex;
             }
             .navbar .left,
@@ -89,19 +84,19 @@
 
         @media (min-width: 48em) {
             .navbar div {
-                display: flex
+                display: flex;
             }
         }
 
         @media (max-width: 48em) {
-            .navbar .active .toggle {
+            .navbar.active .toggle {
                 background: #223047;
                 color: white;
             }
             .navbar .brand {
                 text-align: left;
             }
-            .navbar .active div {
+            .navbar.active div {
                 display: block;
             }
         }
